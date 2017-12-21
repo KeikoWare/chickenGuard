@@ -13,9 +13,9 @@ First:
     ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
     update_config=1
     network={
-        ssid="svanevej"
+        ssid="secretssid"
         scan_ssid=1
-        psk="Carlsberg1847"
+        psk="secretpassword"
     }
     [CTRL]+[x]
     [y]
