@@ -5,10 +5,10 @@ If you want to force it closed, you can connect to pins on the board. While the 
 
 I the installed af reaspberry pi zero to do the following:
  - Log temperature
- - take a picture once on a regular basis / time lapse
- - connect a button to two relays
-    - one controlling the door
-    - the other controlling and AC on/off relay
+ - Take a picture once on a regular basis / time lapse
+ - Connect a button with two functions
+    - One (short click) controlling the door
+    - The other (Long click) controlling and AC on/off relay
  
  Tmeprature logging
 
