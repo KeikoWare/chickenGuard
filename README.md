@@ -17,23 +17,11 @@ I have build my own Pi Zero temperature logger with two DS18B20 Temperature sens
 
 Build upon Raspbian Lite OS
 
-First:
-
-    $ sudo reboot
-    $ sudo nano /etc/wpa-supplicant/wpa-supplicant.conf
-    network={
-       ssid="your-wofo-ssid"
-       psk ="your-secret_key"
-    }
-    $ sudo reboot
-
-Next:
-
-    $ sudo nano /boot/config.txt
-Go to the bottom of the file, and add this line:
-
-    dtoverlay=w1-gpio
-Reboot after saving
+On first boot configure
+ - WiFi setup
+ - Enable Camera
+ - Enable SSH
+ - Enable 1-Wire
 
     $ sudo reboot
 
